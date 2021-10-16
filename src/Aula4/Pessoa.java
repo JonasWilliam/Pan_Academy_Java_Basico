@@ -2,6 +2,7 @@ package Aula4;
 
 import java.util.ArrayList;
 
+//Exemplo de for each p/ Fer
 public class Pessoa {
 
 	private String nome;
@@ -36,8 +37,7 @@ public class Pessoa {
 		pessoas.add(p1);
 		pessoas.add(p2);
 		for (Pessoa p : pessoas) {
-			System.out.println(p.getNome());
-			System.out.println(p.getIdade());
+			System.out.println("Nome: " + p.getNome() + ", Idade: " + p.getIdade());
 		}
 	}
 
